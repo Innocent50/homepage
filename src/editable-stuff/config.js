@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Innocent ",
   middleName: "",
   lastName: "Nzimenyera",
-  message: " Passionate about changing the world with technology. ",
+  message: "Helping organizations in creating tailored data solutions that meet their specific requirements.",
   icons: [
     {
       image: "fa-github",
@@ -46,10 +46,26 @@ const about = {
   imageLink: require("../editable-stuff/profile.png"),
   imageSize: 375,
   message:
-    "As a data scientist, I thrive on being challenged and taking on projects that push me beyond my comfort zone and existing skill set. I am constantly learning new skills and development techniques, which benefit my growth and contribute to the organization's success. My proactive and innovative approach and self-motivation enable me to work effectively with minimal supervision.",
+    "My name is Innocent Nzimenyera, a data scientist currently pursuing a Masters of Information Technology with a specialization in Applied Machine Learning and Data Science at Carnegie Mellon University.I am passionate about embracing challenges and tackling projects that push the boundaries of my comfort zone and skill set. I am constantly learning new skills and development techniques, which benefit my growth and contribute to the organization's success. My proactive and innovative approach and self-motivation enable me to work effectively with minimal supervision.",
   resume: "https://drive.google.com/file/d/1C4vy09zT2mn-xtNGC-Bw_jBFUw3Q85I3/view",
 };
 
+const experiences = {
+  show: true,
+  heading: "Experiences",
+  data: [
+    {
+      role: 'Global Green Growth Institute, Data analyst and Python programmer',// Here Add Company Name
+      companylogo: require('../assets/img/gggi.png'),
+      date: 'June 2021 – Present',
+    },
+    {
+      role: 'Front-End Developer',
+      companylogo: require('../assets/img/boeing.png'),
+      date: 'May 2017 – May 2018',
+    },
+  ]
+}
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
@@ -59,8 +75,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "Innocent50", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 2,
+  specificRepos: ["Anticipe-1","IndexSimilationwebsite-2"],
 };
 
 // Leadership SECTION
@@ -92,7 +108,7 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 95 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 65 },
@@ -121,27 +137,9 @@ const getInTouch = {
     "I'm currently looking for full-time data science related position or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "innocentnzime42@gmail.com",
 };
-
-const experiences = {
-  show: false,
-  heading: "Experiences",
-  data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-  ]
-}
-
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about,experiences,repos, skills, leadership, getInTouch};
