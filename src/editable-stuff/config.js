@@ -55,14 +55,15 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Global Green Growth Institute, Data analyst and Python programmer',// Here Add Company Name
+      role: 'Global Green Growth Institute, Data Analyst and Python Programmer Consultant',// Here Add Company Name
       companylogo: require('../assets/img/gggi.png'),
+      imageLink: "https://gggi.org/",
       date: 'June 2021 – Present',
     },
     {
-      role: 'Front-End Developer',
+      role: 'Rwanda Ministry of ICT and Innovation, Digital Ambassador',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'Sept 2019 – June 2021',
     },
   ]
 }
