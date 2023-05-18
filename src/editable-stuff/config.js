@@ -82,7 +82,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "Global-Green-Growth-Institute", //i.e."johnDoe12Gh"
   reposLength:4,
-  specificRepos:"",
+  specificRepos:["Anticipe ", "Learn-Python-for-ML", "Tesla-Price-prediction-", "indexsim-backup"],
 };
 
 // Leadership SECTION
