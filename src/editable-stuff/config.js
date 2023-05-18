@@ -81,8 +81,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "Innocent50", //i.e."johnDoe12Gh"
-  reposLength: 2,
-  specificRepos: ["Anticipe-1","IndexSimilationwebsite-2"],
+  reposLength: ["Anticipe", "IndexSimilationwebsite"],
+  specificRepos:"",
 };
 
 // Leadership SECTION
