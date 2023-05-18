@@ -82,7 +82,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "Innocent50", //i.e."johnDoe12Gh"
   reposLength:4,
-  specificRepos:["Anticipe ", "Learn-Python-for-ML", "Tesla-Price-prediction-", "indexsim-backup"],
+  specificRepos:[],
 };
 
 // Leadership SECTION
