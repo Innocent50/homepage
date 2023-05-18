@@ -57,7 +57,6 @@ const experiences = {
     {
       role: 'Global Green Growth Institute, Data Analyst and Python Programmer Consultant',// Here Add Company Name
       companylogo: require('../assets/img/gggi.png'),
-      imageLink: "https://gggi.org/",
       date: 'June 2021 – Present',
     },
     {
