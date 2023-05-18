@@ -141,7 +141,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time data science related position or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "For any inquiries, feel free to email me at",
   email: "innocentnzime42@gmail.com",
 };
 // Blog SECTION
