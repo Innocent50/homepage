@@ -141,8 +141,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "For any inquiries, feel free to email me at",
-  email: "innocentnzime42@gmail.com",
+    "For any inquiries, feel free to email me at",email: "innocentnzime42@gmail.com",
 };
 // Blog SECTION
 // const blog = {
