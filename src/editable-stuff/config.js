@@ -61,7 +61,7 @@ const experiences = {
     },
     {
       role: 'Rwanda Ministry of ICT and Innovation, Digital Ambassador',
-      companylogo: require('../assets/img/minict.png'),
+      companylogo: require('../assets/img/minict2.png'),
       date: 'Sept 2019 – June 2021',
     },
   ]
