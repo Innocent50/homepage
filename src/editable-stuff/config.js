@@ -149,4 +149,4 @@ const getInTouch = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about,experiences,repos, skills, leadership, getInTouch};
+export { navBar, mainBody, about,experiences,repos,skills, leadership, getInTouch};
