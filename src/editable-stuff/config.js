@@ -80,7 +80,7 @@ const experiences = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "Global-Green-Growth-Institute", //i.e."johnDoe12Gh"
+  gitHubUsername: "Innocent50", //i.e."johnDoe12Gh"
   reposLength:4,
   specificRepos:["Anticipe ", "Learn-Python-for-ML", "Tesla-Price-prediction-", "indexsim-backup"],
 };
