@@ -144,7 +144,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
 
-    "If you have any inquiries, please don't hesitate to reach out to me via email at.",
+    "If you have any inquiries, please don't hesitate to reach out to me via email at",
     email: "innocentnzime42@gmail.com"
 };
 // Blog SECTION
