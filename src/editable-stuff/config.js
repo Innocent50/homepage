@@ -64,8 +64,14 @@ const experiences = {
       companylogo: require('../assets/img/minict3.png'),
       date: 'Sept 2019 – June 2021',
     },
+    {
+      role: 'National Bank of Rwanda, Intern',
+      companylogo: require('../assets/img/bank.png'),
+      date: 'Jun 2018 – Oct 2018',
+    },
   ]
 }
+
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
