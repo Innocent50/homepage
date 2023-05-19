@@ -105,27 +105,47 @@ const repos = {
 
 //Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Portfolio",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "With expertise spanning data visualization to state-of-the-art machine learning modeling, I possess a comprehensive skill set that encompasses the entire data science pipeline. I invite you to explore some public examples of data science projects I have undertaken in recent years. Simply click on the respective image to delve deeper into each project and learn more about its details.",
   images: [
     { 
-      img: require("../editable-stuff/profile.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/ggindex.png"), 
+      link: "https://gggi-simtool-demo.herokuapp.com/",
+      paragraph: "Global Green Growth Index and Simulation tools." 
     },
     { 
-      img: require("../editable-stuff/profile.png"), 
+      img: require("../editable-stuff/zambiaindex.png"), 
+      link: "https://zambia-greengrowthindex.gggi.org/",
       label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      paragraph: "Zambia Green Growth Index" 
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width: "615",
+    height: "450"
   }
 };
+
+// Render the leadership object
+const renderedImages = leadership.images.map((image) => `
+  <a href="${image.link}" target="_blank">
+    <img src="${image.img}" alt="${image.label}" width="${leadership.imageSize.width}" height="${leadership.imageSize.height}">
+  </a>
+  <p>${image.paragraph}</p>
+`).join("");
+
+const renderedLeadership = `
+  <div>
+    <h2>${leadership.heading}</h2>
+    <p>${leadership.message}</p>
+    ${renderedImages}
+  </div>
+`;
+
+console.log(renderedLeadership);
+
 
 // SKILLS SECTION
 const skills = {
@@ -170,4 +190,4 @@ const getInTouch = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about,education,experiences,repos,skills,leadership,getInTouch};
+export { navBar, mainBody, about,education,experiences,repos,skills,leadership,getInTouch,renderedLeadership};
